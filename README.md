@@ -20,3 +20,15 @@ A simple Linux-based client/server socket application implemented in C. The serv
 1. **Compile the Program**: Run the command `make` in the terminal.
    ```bash
    make
+2. **Start the Server**: Run the server with the command `./server <port_number>`, where `<port_number>` is a 4-digit number.
+   ```bash
+   ./server <port_number>
+3. Start the Client: Open a new terminal and run the client with the command `./client`.
+   ```bash
+   ./client
+
+## Commands
+**Connecting to the Server**
+  Type `connect <IP_ADDRESS> <PORT>` in the client terminal.
+  ```bash
+connect <IP_ADDRESS> <PORT>
