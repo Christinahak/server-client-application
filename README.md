@@ -28,11 +28,13 @@ A simple Linux-based client/server socket application implemented in C. The serv
    ./client
 
 ## Commands
-1. **Connecting to the Server**
-  Type `connect <IP_ADDRESS> <PORT>` in the client terminal.
-  ```bash
-    connect 127.0.0.1 3000
-
-2. **Disconnecting from the Server**
-Type disconnect in the client terminal.
-Example:
+ - **Connecting to the Server**
+ - Type `connect <IP_ADDRESS> <PORT>` in the client terminal.
+ - ```bash
+   connect 127.0.0.1 3000
+ -
+ - **Disconnecting from the Server**
+ - Type `disconnect` in the client terminal.
+ - ```bash
+   disconnect
+-
