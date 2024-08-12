@@ -24,15 +24,15 @@ Usage
 Commands 
 
   Connecting to server 
-  . type "connect <ip_address> <port_number>" in the client terminal
-    Example: 
-        Client> connect 127.0.0.1 3000
+      type "connect <ip_address> <port_number>" in the client terminal
+            Example: 
+                Client> connect 127.0.0.1 3000
 
   Disconnecting from server
-  .type "disconnect"
+      .type "disconnect"
 
   Running a shell command
-  .type " shell "COMMAND" "
-    Example:
-      Client> shell "ls"
+      .type " shell "COMMAND" "
+        Example:
+          Client> shell "ls"
 
