@@ -39,6 +39,6 @@ A simple Linux-based client/server socket application implemented in C. The serv
   disconnect
 
  3. **Sending a shell command**
-  - Type `shell "COMMAND"`
+ - Type `shell "COMMAND"`
    ```bash
    shell "pwd"
