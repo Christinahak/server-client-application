@@ -16,7 +16,7 @@ void error(const char* msg) {
     exit(1);
 }
 
-const int maxClients = 2;
+const int maxClients = 5;
 
 bool handle_client(int newsockfd, int* client_count) {
     char buffer[1024];
