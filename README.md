@@ -30,11 +30,15 @@ A simple Linux-based client/server socket application implemented in C. The serv
 ## Commands
  - **Connecting to the Server**
  - Type `connect <IP_ADDRESS> <PORT>` in the client terminal.
- - ```bash
+   ```bash
    connect 127.0.0.1 3000
- -
+ 
  - **Disconnecting from the Server**
- - Type `disconnect` in the client terminal.
- - ```bash
-   disconnect
--
+- Type `disconnect` in the client terminal.
+  ```bash
+  disconnect
+
+ - **Sending a shell command**
+   Type `shell "COMMAND"`
+   ```bash
+   shell "pwd"
