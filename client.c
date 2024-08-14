@@ -86,8 +86,6 @@ int main(int argc, char* argv[]) {
     		if (n < 0 && errno != EAGAIN && errno != EWOULDBLOCK) {
         		error("ERROR reading from socket");
     		}
-    			// Optional: sleep for a short duration to prevent busy-waiting
-	    		usleep(100000); // 100ms
 	}	
 
 	printf("Server: %s\n", buffer);
